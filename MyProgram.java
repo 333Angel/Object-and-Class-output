@@ -12,7 +12,7 @@ public class MyProgram
         System.out.print(multiChoiceQuestion);
         
         System.out.println("Enter your response a/b/c/d");
-        String Ans = input.nextLine().trim().toLowerCase(); // trim the first letter of the input recieved and then make it lowercase to ensure it isn't case sensitive
+        String Ans = input.nextLine().trim().toLowerCase(); // trim the first letter of the input received and then make it lowercase to ensure it isn't case sensitive
         QuestionChecker.checkAnswer(Ans, multiChoiceQuestion); // checks if it is correct
     }
 }
